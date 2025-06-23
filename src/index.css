@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1, h2 {
+  color: #0071ce; /* Walmart blue */
+}
+
+button {
+  background-color: #0071ce;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 60%;
+}
