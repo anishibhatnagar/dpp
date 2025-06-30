@@ -57,7 +57,7 @@ with app.app_context():
                     production_cost=to_float_safe(row['Production Cost per Unit']),
                     retail_price=to_float_safe(row['Retail Price']),
                     avg_margin=to_float_safe(row['Average Margin (%)']),
-                    reorder_prediction = row['Reorder Prediction']
+                    reorder_prediction = row['Reorder Prediction'],
 
                 )
                 db.session.add(product)
